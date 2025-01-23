@@ -1,0 +1,41 @@
+# Cloudflare Workers 相关的忽略
+
+# 构建输出目录
+dist
+.wrangler
+.mf
+
+# 依赖管理
+node_modules
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# 缓存文件
+.cache
+.parcel-cache
+
+# 配置文件
+wrangler.toml
+.env
+.env.*
+
+# 日志文件
+*.log
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+
+# 编辑器/IDE 相关
+.vscode
+.idea
+*.swp
+*.swo
+*.bak
+
+# 其他
+*.zip
+*.tar.gz
+*.rar
